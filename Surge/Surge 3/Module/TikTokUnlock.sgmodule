@@ -5,7 +5,7 @@
 [URL Rewrite]
 ^https://api[\w-]*?.tiktokv.com/aweme/v\d/policy/notice/? - reject
 
-(?<=_region=)CN(?=&) JP 307
+(?<=_region=)CN(?=&) US 307
 (?<=&mcc_mnc=)4 2 307
 (?<=&app_version=)1[6-9]..(?=.?.?&) 100. 307
 (?<=\?version_code=)1[6-9]..(?=.?.?&) 100. 307
